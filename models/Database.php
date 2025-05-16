@@ -1,7 +1,7 @@
 <?php
 // PDO connection
 $host = 'localhost';
-$db = 'nom_de_ta_base';
+$db = 'nom_de_base';
 $user = 'root';
 $pass = '';
 
