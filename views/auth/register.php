@@ -17,3 +17,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 }
 ?>
+<form method="post">
+    Nom d'utilisateur: <input type="text" name="username" required><br>
+    Mot de passe: <input type="password" name="password" required><br>
+    <button type="submit">S'inscrire</button>
+</form>
